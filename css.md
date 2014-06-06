@@ -1,8 +1,8 @@
-CSS Code Standards
+# CSS Code Standards
 
 - - -
 
-## Contents
+**Contents**
 
 1. Structure
 2. Selectors
