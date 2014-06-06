@@ -12,7 +12,6 @@
 6. Commenting
 7. Best Practices
 
-- - -
 
 ## Structure
 
@@ -46,4 +45,51 @@ There are plenty of different methods for structuring a stylesheet. With the CSS
 #selector-1 { background: #fff; color: #000; }
 ```
 
+
 ## Selectors
+
+With specificity, comes great responsibility. Broad selectors allow us to be efficient, yet can have adverse consequences if not tested. Location-specific selectors can save us time, but will quickly lead to a cluttered stylesheet. Exercise your best judgement to create selectors that find the right balance between contributing to the overall style and layout of the DOM.
+
+- Similar to the [WordPress Coding Standards](http://codex.wordpress.org/WordPress_Coding_Standards) for file names, use lowercase and separate words with hyphens when naming selectors. Avoid camelcase and underscores.
+
+- Use human readable selectors that describe what element(s) they style.
+
+- Attribute selectors should use double quotes around values
+
+- Refrain from using over-qualified selectors, div.container can simply be stated as .container
+
+**Correct:**
+
+```css
+#comment-form {
+    margin: 1em 0;
+}
+
+input[type="text"] {
+    line-height: 1.1;
+}
+```
+
+**Incorrect:**
+
+```css
+#commentForm { /* Avoid camelcase. */
+    margin: 0;
+}
+
+#comment_form { /* Avoid underscores. */
+    margin: 0;
+}
+
+div#comment_form { /* Avoid over-qualification. */
+    margin: 0;
+}
+
+#c1-xr { /* What is a c1-xr?! Use a better name. */
+    margin: 0;
+}
+
+input[type=text] { /* Should be [type="text"] */
+    line-height: 110% /* Also doubly incorrect */
+}
+```
