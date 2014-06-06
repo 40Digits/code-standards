@@ -2,15 +2,15 @@
 
 **Contents**
 
-1. Structure
-2. Selectors
-3. Properties
-	1. Property Ordering
-	2. Vendor Prefixes
-4. Values
-5. Media Queries
-6. Commenting
-7. Best Practices
+1. [Structure](#structure)
+2. [Selectors](#selectors)
+3. [Properties](#properties)
+	1. [Property Ordering](#property-ordering)
+	2. [Vendor Prefixes](#vendor-prefixes)
+4. [Values](#values)
+5. [Media Queries](#media-queries)
+6. [Commenting](#commenting)
+7. [Best Practices](#best-practices)
 
 
 ## Structure
@@ -119,7 +119,7 @@ Above all else, choose something that is meaningful to you and semantic in some 
 
 Things that are not yet used in core itself, such as CSS3 animations, may not have a prescribed place above but likely would fit into one of the above in a logical manner. Just as CSS is evolving, so our standards will evolve with it.
 
-Top/Right/Bottom/Left (TRBL/trouble) should be the order for any relevant properties (e.g. margin), much as the order goes in values. Corner specifiers (e.g. border-radius-*-*) should be top-left, top-right, bottom-right, bottom-left. This is derived from how shorthand values would be ordered.
+Top/Right/Bottom/Left (TRBL/trouble) should be the order for any relevant properties (e.g. `margin`), much as the order goes in values. Corner specifiers (e.g. `border-radius: * * * *`) should be `top-left, top-right, bottom-right, bottom-left`. This is derived from how shorthand values would be ordered.
 
 Another method that is often used, including by the Automattic/WordPress.com Themes Team, is to order properties alphabetically, with or without certain exceptions.
 
