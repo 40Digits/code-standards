@@ -1,2 +1,2 @@
-code-standards
+40Digits Code Standards
 ==============
