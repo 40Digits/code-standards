@@ -1,8 +1,8 @@
 CSS Code Standards
-=====
 
-Contents
------
+- - -
+
+## Contents
 
 1. Structure
 2. Selectors
@@ -26,7 +26,7 @@ There are plenty of different methods for structuring a stylesheet. With the CSS
 
 - Each selector should be on its own line, ending in either a comma or an opening curly brace. Property-value pairs should be on their own line, with one tab of indentation and an ending semicolon. The closing brace should be flush left, using the same level of indentation as the opening selector.
 
-** Correct: **
+**Correct:**
 
 ```css
 #selector-1,
@@ -37,7 +37,7 @@ There are plenty of different methods for structuring a stylesheet. With the CSS
 }
 ```
 
-** Incorrect: **
+**Incorrect:**
 
 ```css
 #selector-1, #selector-2, #selector-3 {
@@ -47,3 +47,5 @@ There are plenty of different methods for structuring a stylesheet. With the CSS
 
 #selector-1 { background: #fff; color: #000; }
 ```
+
+- - -
