@@ -1,2 +1,2 @@
 40Digits Code Standards
-==============
+=====
