@@ -1,7 +1,5 @@
 # CSS Code Standards
 
-- - -
-
 **Contents**
 
 1. Structure
@@ -48,4 +46,4 @@ There are plenty of different methods for structuring a stylesheet. With the CSS
 #selector-1 { background: #fff; color: #000; }
 ```
 
-- - -
+## Selectors
