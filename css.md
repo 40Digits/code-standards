@@ -2,15 +2,15 @@
 
 **Contents**
 
-1. [Structure](#structure)
-2. [Selectors](#selectors)
-3. [Properties](#properties)
-	1. [Property Ordering](#property-ordering)
-	2. [Vendor Prefixes](#vendor-prefixes)
-4. [Values](#values)
-5. [Media Queries](#media-queries)
-6. [Commenting](#commenting)
-7. [Best Practices](#best-practices)
+- [Structure](#structure)
+- [Selectors](#selectors)
++ [Properties](#properties)
+	- [Property Ordering](#property-ordering)
+	- [Vendor Prefixes](#vendor-prefixes)
+- [Values](#values)
+- [Media Queries](#media-queries)
+- [Commenting](#commenting)
+- [Best Practices](#best-practices)
 
 
 ## Structure
