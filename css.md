@@ -2,15 +2,32 @@
 
 **Contents**
 
-- [Structure](#structure)
-- [Selectors](#selectors)
-+ [Properties](#properties)
+- [Terminology](#terminology)
+	- [Rule Declaration](#rule-declaration)
+	- [Selectors](#selectors)
+	- [Properties](#properties)
+- [Syntax & Formatting](#syntax--formatting)
+	- [ID Selectors](#id-selectors)
+	- [Quotes](#quotes)
+	- [Numbers](#numbers)
+	- [Lists](#lists)
+	- [Maps](#maps)
+	- [Rule Ordering](#rule-ordering)
+	- [State Rules](#state-rules)
+	- [JavaScript Hooks](#javascript-hooks)
++ [Nesting Selectors](#nesting-selectors)
++ [CSS Selectors](#css-selectors)
+	- [Reusability](#reusability)
+	- [Location Independence](#location-independence)
+	- [Portability](#portability)
+	- [Performance](#performance)
+- [Comments](#comments)
+- [Advanced Sass](#advanced-sass)
+	- [Mixins](#mixins)
+	- [Placeholders](#placeholders)
+- [Suggested](#suggested)
 	- [Property Ordering](#property-ordering)
-	- [Vendor Prefixes](#vendor-prefixes)
-- [Values](#values)
-- [Media Queries](#media-queries)
-- [Commenting](#commenting)
-- [Best Practices](#best-practices)
+	- [Naming Conventions](#naming-conventions)
 
 ---
 #Terminology
@@ -446,6 +463,7 @@ Further reading:
 
 ---
 #Suggested
+The following section contains suggested ideas, it's up to you whether you want to apply it to your project.
 
 ###Property Ordering
 
@@ -454,8 +472,6 @@ Currently there are three display styles:
 1. Alphabetical Order
 2. Declaration Type (position, display, colors ... )
 3. [Concentric CSS](https://github.com/brandon-rhodes/Concentric-CSS) (starts outside, moves inward)
-
-
 
 |      | Alphabetical                                                        | Decelaration                                                       | Concentric                                           |
 |------|---------------------------------------------------------------------|--------------------------------------------------------------------|------------------------------------------------------|
@@ -482,11 +498,11 @@ Naming conventions in CSS are hugely useful in making your code strict, transpar
 - where a class can be used
 - what else a class might be related to
 
-
 Additionally you can prefix your class names with the type of pattern they belong to. This makes it fundamentally easier to associate not only the place your styles are located at, but JavaScript too.
 
-| .comp-          | for components                                                         |
+| Class           | Use                                                                    |
 |-----------------|------------------------------------------------------------------------|
+| .comp-          | for components                                                         |
 | .mod-           | for modular elements comprised of components                           |
 | .sec-           | for sections inside of a container                                     |
 | .landing-       | for indicating the content container (without global header or footer) |
