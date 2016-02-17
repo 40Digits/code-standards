@@ -64,7 +64,8 @@ Here's an example:
   {
   }
 ```
-There are tools that exist to make our life easier when writing this syntax. More to come.
+There are tools that exist to make our life easier when writing this syntax.
+* [Sublime DocBlock](https://github.com/spadgos/sublime-jsdocs)
 
 
 ### Linting
