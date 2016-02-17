@@ -69,7 +69,8 @@ There are tools that exist to make our life easier when writing this syntax.
 
 
 ### Linting
-We recognize that linting is essential to helping developers new to a style guide learn the ins and outs. We're working on adding suggestions here.
+We recognize that linting is essential to helping developers new to a style guide learn the ins and outs. We're working on adding more suggestions here.
+* [Sublime PHP Sniffer](http://benmatselby.github.io/sublime-phpcs/)
 
 
 ### How to contribute
