@@ -71,6 +71,8 @@ There are tools that exist to make our life easier when writing this syntax.
 ### Linting
 We recognize that linting is essential to helping developers new to a style guide learn the ins and outs. We're working on adding suggestions here.
 
+* [PHPStorm Style Setup for PSR-1 & 2](http://www.matthewsetter.com/enforcing-psr1-and-psr2-with-phpstorm/)
+
 
 ### How to contribute
 If you have suggestions, questions, or concerns open an issue (or pull request if you have a suggestion).
