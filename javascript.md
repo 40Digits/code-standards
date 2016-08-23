@@ -37,7 +37,7 @@ JavaScript files are compiled into a deliverable, so developers can organize the
 ## Building JavaScript
 
 ### Eta (Deprecated)
-***Eta has been deprecated and we are no longer using it, or  will be supporting it.
+***Eta has been deprecated and we are no longer using it, or  will be supporting it.***
 We use our own [`gulp-eta`](https://github.com/40Digits/gulp-eta) to provide a preset list of gulp tasks to run.  Each of these components below are used with gulp to turn the JavaScript we write into the JavaScript that runs in the browser.
 
 
