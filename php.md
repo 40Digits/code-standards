@@ -28,6 +28,7 @@ There's a lot of fluff that comes along with all of the PSRs, we recommend makin
 This is a list of items that we have chosen to follow in addition to the PSRs
 * Use camelCase for methods, functions, properties and variables.
 * Don't use short echo tags. `<?= $variable; ?>` should be `<?php echo $variable; ?>`
+* Don't use short array tags unless all environments use PHP 5.4 or greater. `$array = [];` can be written as the more verbose `$array = array();`
 
 
 ### Pay attention to these things
